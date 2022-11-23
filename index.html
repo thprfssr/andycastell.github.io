@@ -4,9 +4,21 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="stylesheet" type="text/css" href="main.css"/>
+
+  <!-- MathJax -->
+  <!-- Taken from [https://www.mathjax.org/#gettingstarted]. -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <!-- Client side include -->
+  <!-- Taken from [https://github.com/LexmarkWeb/csi.js]. -->
+  <script src=scripts/csi.min.js"></script>
+
   <title>Andy Castell</title>
 </head>
 <body>
   <header><h1>Andy Castell's Magnificent Website</h1></header>
+  <p>The accounting equation is \(A-L-E^{-R}_{+X}=0\).</p>
+  <div data-include="header.html"></div>
 </body>
 </html>
